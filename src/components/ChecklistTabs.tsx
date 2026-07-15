@@ -75,6 +75,9 @@ export default function ChecklistTabs({ onSelectTier, activeTier }: ChecklistTab
                     <p className="text-xs text-slate-700 mt-1 font-bold">
                       Recommended for weekly, bi-weekly, or monthly recurring service to keep your space fresh.
                     </p>
+                    <p className="text-[10px] text-brand-700 mt-2 font-extrabold bg-white/70 border border-brand-500 rounded-lg px-2.5 py-1 w-fit">
+                      ⚠️ Note: On-site vacuum required. Heavy-duty supplies reserved for Deep cleans.
+                    </p>
                   </div>
                   <button
                     onClick={() => onSelectTier('standard')}

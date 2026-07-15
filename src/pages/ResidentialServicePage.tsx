@@ -35,6 +35,15 @@ export const ResidentialServicePage: React.FC = () => {
           </p>
         </div>
 
+        {/* Important Equipment Note */}
+        <div className="bg-yellow-pop/10 rounded-2xl p-5 border-2.5 border-slate-900 shadow-pop-sm mb-8 text-xs font-bold text-slate-800 flex items-start gap-3">
+          <span className="text-lg">⚠️</span>
+          <div>
+            <span className="font-black text-slate-900 block mb-0.5 font-display">Equipment Notice:</span>
+            For standard maintenance cleans, the homeowner must provide a working vacuum cleaner on-site. Heavy-duty tools and specialty stain-removal supplies are exclusively provided for Deluxe Deep Clean and Move In/Out services.
+          </div>
+        </div>
+
         {/* Full Task Checklist */}
         <div className="bg-white rounded-3xl p-8 mb-16 border-3 border-slate-900 shadow-pop relative overflow-hidden halftone-dots">
           <div className="absolute right-0 top-0 w-24 h-24 bg-teal-500/10 rounded-full blur-xl pointer-events-none"></div>
