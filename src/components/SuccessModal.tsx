@@ -42,7 +42,7 @@ export default function SuccessModal({ isOpen, onClose, quoteDetails }: SuccessM
       const triggerWebhookPost = async () => {
         setIsSending(true);
         try {
-          const webhookUrl = 'https://script.google.com/macros/s/AKfycbwgzR41HnLdH0ojUN9uRKDwYfI8P7xFdJ_Zii5w5MeoMBB3UAcpPgsAFLRL-1PovIfS/exec';
+          const webhookUrl = 'https://script.google.com/macros/s/AKfycbwTNga5GYFW4n1qmqUAE0DuTrnTVc5qOAjYf6Eg9bpobTInTt7CDmiQlozZVTHzIaZ7/exec';
           const response = await fetch(webhookUrl, {
             method: 'POST',
             headers: {
