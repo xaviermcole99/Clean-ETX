@@ -125,9 +125,9 @@ export default function Navbar() {
               <Phone className="w-4 h-4 text-brand-500 fill-brand-100" />
               <span className="text-sm font-extrabold font-mono">(903) 519-8273</span>
             </a>
-            <a href="mailto:info@cleanetx.com" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
+            <a href="mailto:cleanetx.info@gmail.com" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
               <Mail className="w-4 h-4 text-brand-500 fill-brand-100" />
-              <span className="text-sm font-extrabold font-mono">info@cleanetx.com</span>
+              <span className="text-sm font-extrabold font-mono">cleanetx.info@gmail.com</span>
             </a>
             
             <Link
@@ -207,9 +207,9 @@ export default function Navbar() {
               <Phone className="w-4 h-4 text-brand-500 fill-brand-100" />
               <span className="font-extrabold text-sm font-mono">(903) 519-8273</span>
             </a>
-            <a href="mailto:info@cleanetx.com" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
+            <a href="mailto:cleanetx.info@gmail.com" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
               <Mail className="w-4 h-4 text-brand-500 fill-brand-100" />
-              <span className="font-extrabold text-sm font-mono">info@cleanetx.com</span>
+              <span className="font-extrabold text-sm font-mono">cleanetx.info@gmail.com</span>
             </a>
           </div>
           <Link

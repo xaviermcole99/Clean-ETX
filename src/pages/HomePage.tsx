@@ -495,24 +495,18 @@ export const HomePage: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
             {[
               {
-                name: "Jessica R.",
+                name: "Martha L.",
                 neighborhood: "Tyler, TX",
-                quote: "Clean ETX is a lifesaver! They clean our house bi-weekly and always do a flawless job. The attention to detail on the kitchen counters and baseboards is spectacular.",
+                quote: "Sarah was so nice and considerate when it came to helping me clean after my surgery",
                 stars: 5
               },
               {
-                name: "Michael S.",
+                name: "David & Kylee R.",
                 neighborhood: "Flint, TX",
-                quote: "We used them for a move-out clean and got our full deposit back. Meticulous work on the inside of the oven and cabinets. Highly recommend!",
-                stars: 5
-              },
-              {
-                name: "David K.",
-                neighborhood: "Lindale, TX",
-                quote: "Very professional crew and transparent pricing. They didn't leave a single speck of dust. The best cleaning service in the area.",
+                quote: "We had such a great experience! The ladies were polite, hardworking, and very detail-oriented. They arrived on time, worked quickly, and did an outstanding job. Our home looks fantastic, we'll definitely be scheduling regular cleanings!",
                 stars: 5
               }
             ].map((t, idx) => (

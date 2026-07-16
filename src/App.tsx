@@ -76,8 +76,8 @@ function AppContent() {
               <a href="tel:9035198273" className="hover:text-slate-300 flex items-center gap-1.5 font-mono">
                 <span>📞</span> (903) 519-8273
               </a>
-              <a href="mailto:info@cleanetx.com" className="hover:text-slate-300 flex items-center gap-1.5">
-                <span>✉️</span> info@cleanetx.com
+              <a href="mailto:cleanetx.info@gmail.com" className="hover:text-slate-300 flex items-center gap-1.5">
+                <span>✉️</span> cleanetx.info@gmail.com
               </a>
             </div>
           </div>
