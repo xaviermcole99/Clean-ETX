@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Phone, Menu, X, ChevronDown } from 'lucide-react';
+import { Phone, Menu, X, ChevronDown, Mail } from 'lucide-react';
 import Logo from './Logo';
 
 export default function Navbar() {
@@ -125,6 +125,10 @@ export default function Navbar() {
               <Phone className="w-4 h-4 text-brand-500 fill-brand-100" />
               <span className="text-sm font-extrabold font-mono">(903) 519-8273</span>
             </a>
+            <a href="mailto:info@cleanetx.com" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
+              <Mail className="w-4 h-4 text-brand-500 fill-brand-100" />
+              <span className="text-sm font-extrabold font-mono">info@cleanetx.com</span>
+            </a>
             
             <Link
               to="/quote"
@@ -198,9 +202,15 @@ export default function Navbar() {
             About Us
           </Link>
 
-          <div className="flex items-center gap-2 py-1 text-slate-800">
-            <Phone className="w-4 h-4 text-brand-500" />
-            <span className="font-extrabold text-sm font-mono">(903) 519-8273</span>
+          <div className="flex flex-col gap-2.5 py-1 text-slate-800">
+            <a href="tel:9035198273" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
+              <Phone className="w-4 h-4 text-brand-500 fill-brand-100" />
+              <span className="font-extrabold text-sm font-mono">(903) 519-8273</span>
+            </a>
+            <a href="mailto:info@cleanetx.com" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
+              <Mail className="w-4 h-4 text-brand-500 fill-brand-100" />
+              <span className="font-extrabold text-sm font-mono">info@cleanetx.com</span>
+            </a>
           </div>
           <Link
             to="/quote"

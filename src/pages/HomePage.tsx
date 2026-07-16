@@ -83,7 +83,7 @@ export const HomePage: React.FC = () => {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
                 </span>
-                Highly Rated East Texas Cleaning Crew
+                Highly Rated Cleaning Crew in Tyler, Flint, Lindale, Whitehouse & Bullard, TX
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-tight font-display">
@@ -477,6 +477,63 @@ export const HomePage: React.FC = () => {
             </div>
           </div>
 
+        </div>
+      </section>
+
+      {/* NEW SECTION: TestimonialsSection */}
+      <section className="py-24 bg-white border-b-3 border-slate-900 halftone-dots">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+          <div className="text-center space-y-4 mb-16">
+            <span className="text-xs font-black text-slate-900 bg-yellow-pop border-2 border-slate-900 px-3.5 py-1.5 rounded-full uppercase tracking-wider inline-block shadow-pop-sm animate-pulse">
+              Customer Reviews
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight font-display">
+              Loved by Tyler & Flint Families
+            </h2>
+            <p className="max-w-xl mx-auto text-sm text-slate-600 font-bold leading-relaxed">
+              Here is what your neighbors in Tyler, Whitehouse, Lindale, Flint, and Bullard say about our home detailing.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-3">
+            {[
+              {
+                name: "Jessica R.",
+                neighborhood: "Tyler, TX",
+                quote: "Clean ETX is a lifesaver! They clean our house bi-weekly and always do a flawless job. The attention to detail on the kitchen counters and baseboards is spectacular.",
+                stars: 5
+              },
+              {
+                name: "Michael S.",
+                neighborhood: "Flint, TX",
+                quote: "We used them for a move-out clean and got our full deposit back. Meticulous work on the inside of the oven and cabinets. Highly recommend!",
+                stars: 5
+              },
+              {
+                name: "David K.",
+                neighborhood: "Lindale, TX",
+                quote: "Very professional crew and transparent pricing. They didn't leave a single speck of dust. The best cleaning service in the area.",
+                stars: 5
+              }
+            ].map((t, idx) => (
+              <div key={idx} className="bg-white p-8 rounded-3xl border-3 border-slate-900 shadow-pop flex flex-col justify-between hover:translate-y-[-2px] transition-transform duration-300">
+                <div className="space-y-4">
+                  <div className="flex gap-1">
+                    {[...Array(t.stars)].map((_, i) => (
+                      <span key={i} className="text-yellow-400 text-lg">★</span>
+                    ))}
+                  </div>
+                  <p className="text-slate-700 text-xs font-bold leading-relaxed italic">
+                    "{t.quote}"
+                  </p>
+                </div>
+                <div className="border-t-2 border-slate-100 pt-4 mt-6 flex items-center justify-between">
+                  <span className="font-black text-slate-900 font-display text-sm">{t.name}</span>
+                  <span className="bg-brand-100 border border-slate-900 text-[10px] font-black px-2 py-0.5 rounded-lg shadow-pop-xs text-brand-600">{t.neighborhood}</span>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

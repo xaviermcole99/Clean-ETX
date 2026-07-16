@@ -72,9 +72,12 @@ function AppContent() {
 
           <div className="flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4 font-bold">
             <p>&copy; 2026 Clean ETX Inc. All rights reserved. Locally owned and operated.</p>
-            <div className="flex items-center gap-4">
-              <a href="tel:9035198273" className="hover:text-slate-300">
-                (903) 519-8273
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+              <a href="tel:9035198273" className="hover:text-slate-300 flex items-center gap-1.5 font-mono">
+                <span>📞</span> (903) 519-8273
+              </a>
+              <a href="mailto:info@cleanetx.com" className="hover:text-slate-300 flex items-center gap-1.5">
+                <span>✉️</span> info@cleanetx.com
               </a>
             </div>
           </div>

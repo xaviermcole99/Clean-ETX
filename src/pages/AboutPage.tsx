@@ -15,7 +15,7 @@ export const AboutPage: React.FC = () => {
             About Clean ETX
           </h1>
           <p className="text-sm sm:text-base text-slate-600 font-bold leading-relaxed">
-            We are a dedicated, locally owned and operated residential cleaning squad serving East Texas.
+            We are a dedicated, locally owned and operated residential cleaning squad serving Tyler, Whitehouse, Lindale, Flint, and Bullard, TX.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export const AboutPage: React.FC = () => {
             </div>
             <h2 className="text-lg font-black text-slate-900 font-display mb-3">Our Mission</h2>
             <p className="text-slate-600 text-xs font-bold leading-relaxed">
-              We want to give East Texas homeowners their weekends back. We approach cleaning as a form of home detailing, focusing on hard-to-reach dust, sanitized restrooms, and spotless kitchens so you can enjoy your home without the chores.
+              We want to give homeowners in the Tyler, Whitehouse, Lindale, Flint, and Bullard area their weekends back. We approach cleaning as a form of home detailing, focusing on hard-to-reach dust, sanitized restrooms, and spotless kitchens so you can enjoy your home without the chores.
             </p>
           </div>
 
