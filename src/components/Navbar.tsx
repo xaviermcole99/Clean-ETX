@@ -121,9 +121,9 @@ export default function Navbar() {
             
             <span className="h-5 w-[2px] bg-slate-900"></span>
             
-            <a href="tel:9035198273" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
+            <a href="tel:9032514549" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
               <Phone className="w-4 h-4 text-brand-500 fill-brand-100" />
-              <span className="text-sm font-extrabold font-mono">(903) 519-8273</span>
+              <span className="text-sm font-extrabold font-mono">(903) 251-4549</span>
             </a>
             <a href="mailto:cleanetx.info@gmail.com" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
               <Mail className="w-4 h-4 text-brand-500 fill-brand-100" />
@@ -140,7 +140,7 @@ export default function Navbar() {
 
           {/* Mobile Menu Trigger */}
           <div className="md:hidden flex items-center gap-2">
-            <a href="tel:9035198273" className="flex items-center justify-center w-9 h-9 rounded-xl bg-brand-100 border-2 border-slate-900 text-slate-900 shadow-pop-sm">
+            <a href="tel:9032514549" className="flex items-center justify-center w-9 h-9 rounded-xl bg-brand-100 border-2 border-slate-900 text-slate-900 shadow-pop-sm">
               <Phone className="w-4 h-4" />
             </a>
             <button
@@ -203,9 +203,9 @@ export default function Navbar() {
           </Link>
 
           <div className="flex flex-col gap-2.5 py-1 text-slate-800">
-            <a href="tel:9035198273" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
+            <a href="tel:9032514549" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
               <Phone className="w-4 h-4 text-brand-500 fill-brand-100" />
-              <span className="font-extrabold text-sm font-mono">(903) 519-8273</span>
+              <span className="font-extrabold text-sm font-mono">(903) 251-4549</span>
             </a>
             <a href="mailto:cleanetx.info@gmail.com" className="flex items-center gap-2 text-slate-800 hover:text-brand-500 transition-colors">
               <Mail className="w-4 h-4 text-brand-500 fill-brand-100" />
